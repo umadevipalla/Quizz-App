@@ -1,0 +1,29 @@
+@import '../../index.scss';
+.question-container {
+    h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+    }   
+    ul {
+        margin-top: 20px;
+        margin-left: -40px;
+        li {
+            text-decoration: none;
+            list-style: none;
+            color: $foreground;
+            font-size: 16px;
+            background: $bg;
+            border: 1px solid $disabled;
+            border-radius: 16px;
+            padding: 11px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        .selected-index {
+            background: $primary;
+            border: 1px solid $accent;
+            color: $bg;
+        }
+    }   
+}
